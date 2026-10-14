@@ -1,0 +1,236 @@
+All LLM outputs, Qwen2.5-1.5B-Instruct, greedy decoding, prompts v1 and v2, messages M1-M8 – run 20261011T161818Z
+
+--- v1 M1 (6.6s) json_only=False error=None
+```json
+{
+  "issue_category": "Infrastructure",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities Management Team",
+  "escalation_reason": "Immediate action required to prevent potential damage.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Water leak detected in Building C for several hours."
+}
+```
+
+--- v1 M2 (4.02s) json_only=False error=None
+```json
+{
+  "issue_category": "Operational",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Operations Team",
+  "escalation_reason": "Contamination of recycling bins is causing waste management issues.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Recycling bins are contaminated again with no checks being made."
+}
+```
+
+--- v1 M3 (3.67s) json_only=False error=None
+```json
+{
+  "issue_category": "Environmental",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "IT Support Team",
+  "escalation_reason": "Immediate action needed to prevent potential health risks.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Air conditioning running overnight in an empty office."
+}
+```
+
+--- v1 M4 (4.27s) json_only=False error=None
+```json
+{
+  "issue_category": "Supplier Compliance",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Sustainability Team",
+  "escalation_reason": "Potential non-compliance with sustainability policies",
+  "data_sensitivity_risk": "MEDIUM",
+  "brief_summary": "Employee reports potential supplier non-compliance with company's sustainability policy."
+}
+```
+
+--- v1 M5 (4.0s) json_only=False error=None
+```json
+{
+  "issue_category": "Security",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facility Management Team",
+  "escalation_reason": "Immediate action needed to ensure safety of employees.",
+  "data_sensitivity_risk": "None",
+  "brief_summary": "Entrance near main building is blocked for two days."
+}
+```
+
+--- v1 M6 (4.22s) json_only=False error=None
+```json
+{
+  "issue_category": "Environmental",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Environment & Safety Team",
+  "escalation_reason": "Immediate action needed to address hazardous waste disposal.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Strong chemical smell detected near staff entrance after old paint tins and batteries were disposed of in Building D."
+}
+```
+
+--- v1 M7 (3.65s) json_only=False error=None
+```json
+{
+  "issue_category": "Environmental",
+  "urgency": "LOW",
+  "sentiment": "POSITIVE",
+  "followup_required": "N",
+  "recommended_team": null,
+  "escalation_reason": null,
+  "data_sensitivity_risk": null,
+  "brief_summary": "Employee compliments on new solar panels in car park roof."
+}
+```
+
+--- v1 M8 (4.12s) json_only=False error=None
+```json
+{
+  "issue_category": "Data Integrity",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "ESG Reporting Team",
+  "escalation_reason": "Potential misrepresentation of company performance.",
+  "data_sensitivity_risk": "MEDIUM",
+  "brief_summary": "Manager requested changes to ESG report figures without justification."
+}
+```
+
+saved logs/20261011T161818Z_llm_v1.jsonl
+--- v2 M1 (4.31s) json_only=False error=None
+```json
+{
+  "issue_category": "water_leak",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Energy",
+  "escalation_reason": "Immediate risk to people's safety due to potential electrical hazards.",
+  "data_sensitivity_risk": "LOW",
+  "needs_human_review": false,
+  "brief_summary": "Water leak in Building C affecting electricity."
+}
+```
+
+--- v2 M2 (4.82s) json_only=False error=None
+```json
+{
+  "issue_category": "waste_contamination",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Waste & Environment",
+  "escalation_reason": "Contaminated recycling bins indicate potential health risks.",
+  "data_sensitivity_risk": "MEDIUM",
+  "needs_human_review": false,
+  "brief_summary": "Recycling bins contaminated, no checks."
+}
+```
+
+--- v2 M3 (4.19s) json_only=False error=None
+```json
+{
+  "issue_category": "energy_waste",
+  "urgency": "LOW",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Energy",
+  "escalation_reason": "no immediate risk identified",
+  "data_sensitivity_risk": "LOW",
+  "needs_human_review": false,
+  "brief_summary": "Air conditioning running overnight in an empty office"
+}
+```
+
+--- v2 M4 (4.03s) json_only=False error=None
+```json
+{
+  "issue_category": "supplier_compliance",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Procurement",
+  "escalation_reason": "sustainability policy violation",
+  "data_sensitivity_risk": "HIGH",
+  "needs_human_review": true,
+  "brief_summary": "Supplier potentially violating sustainability policy"
+}
+```
+
+--- v2 M5 (4.9s) json_only=False error=None
+```json
+{
+  "issue_category": "accessibility_barrier",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Inclusion",
+  "escalation_reason": "blocked entrance poses immediate safety risk",
+  "data_sensitivity_risk": "MEDIUM",
+  "needs_human_review": false,
+  "brief_summary": "Main building entrance blocked for two days"
+}
+```
+
+--- v2 M6 (4.64s) json_only=False error=None
+```json
+{
+  "issue_category": "waste_contamination",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Waste & Environment",
+  "escalation_reason": "Strong chemical smell and potential environmental contamination.",
+  "data_sensitivity_risk": "HIGH",
+  "needs_human_review": false,
+  "brief_summary": "Staff entrance has strong chemical smell due to dumped old paint tins and batteries."
+}
+```
+
+--- v2 M7 (3.58s) json_only=False error=None
+```json
+{
+  "issue_category": "other",
+  "urgency": "LOW",
+  "sentiment": "POSITIVE",
+  "followup_required": "N",
+  "recommended_team": "",
+  "escalation_reason": "none",
+  "data_sensitivity_risk": "LOW",
+  "needs_human_review": false,
+  "brief_summary": "Positive comment about new solar panels."
+}
+```
+
+--- v2 M8 (4.99s) json_only=False error=None
+```json
+{
+  "issue_category": "energy_waste",
+  "urgency": "LOW",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Procurement",
+  "escalation_reason": "The message mentions changing energy figures, which could impact sustainability metrics.",
+  "data_sensitivity_risk": "MEDIUM",
+  "needs_human_review": false,
+  "brief_summary": "Manager asks to manipulate ESG report figures."
+}
+```
+
+saved logs/20261011T161818Z_llm_v2.jsonl

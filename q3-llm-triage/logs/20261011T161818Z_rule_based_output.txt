@@ -1,0 +1,9 @@
+  message_id               category   urgency                    team
+0         M1             water_leak      HIGH     Facilities & Energy
+1         M2    waste_contamination      HIGH     Waste & Environment
+2         M3           energy_waste    MEDIUM     Facilities & Energy
+3         M4    supplier_compliance    MEDIUM             Procurement
+4         M5  accessibility_barrier      HIGH  Facilities & Inclusion
+5         M6     hazardous_disposal  CRITICAL     Waste & Environment
+6         M7                  other       LOW     Sustainability Team
+7         M8           energy_waste      HIGH     Facilities & Energy

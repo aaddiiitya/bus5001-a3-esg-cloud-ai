@@ -1,0 +1,20 @@
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  message_id               category  category_score urgency  urgency_score  \
+0         M1             water_leak           0.933    HIGH          0.717   
+1         M2    waste_contamination           0.742    HIGH          0.428   
+2         M3           energy_waste           0.350     LOW          0.736   
+3         M4     governance_concern           0.571    HIGH          0.626   
+4         M5  accessibility_barrier           0.890    HIGH          0.678   
+5         M6     hazardous_disposal           0.651    HIGH          0.640   
+6         M7                  other           0.978     LOW          0.760   
+7         M8                  other           0.580    HIGH          0.465   
+
+                     team  
+0     Facilities & Energy  
+1     Waste & Environment  
+2     Facilities & Energy  
+3     Governance & Ethics  
+4  Facilities & Inclusion  
+5     Waste & Environment  
+6     Sustainability Team  
+7     Sustainability Team  
